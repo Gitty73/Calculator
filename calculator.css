@@ -1,0 +1,15 @@
+body{
+	margin-left: 500px;
+	margin-top: 200px;
+}
+
+table{
+	width: 350px;
+	height: 175px;
+	background-color: lightblue;
+	border-color: grey;
+}
+
+#result{
+	display:inline;
+}
