@@ -1,15 +1,32 @@
-body{
-	margin-left: 500px;
-	margin-top: 200px;
+.container{
+	margin-top: 15%;
 }
 
-table{
-	width: 350px;
-	height: 175px;
-	background-color: lightblue;
-	border-color: grey;
+#heading{
+	text-align: center;
+	background-color: lightsalmon;
 }
 
 #result{
 	display:inline;
 }
+
+table{
+	margin-left: 35%;
+	width: 350px;
+	height: 200px;
+	text-align: center;
+}
+
+tr{
+	background-color: moccasin;
+}
+
+button:hover{
+	background-color: lightsalmon;
+}
+
+input[type="reset"]:hover{
+	background-color: lightsalmon;
+}
+
