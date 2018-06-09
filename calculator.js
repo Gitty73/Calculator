@@ -2,7 +2,6 @@ var add = document.querySelector("#add");
 var sub = document.querySelector("#sub");
 var mul = document.querySelector("#mul");
 var div = document.querySelector("#div");
-var reset = document.querySelector("#reset");
 var total;
 var num1, num2, Result;
 
