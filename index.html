@@ -4,11 +4,12 @@
 	<title>Calculator</title>
 	<link rel="stylesheet" type="text/css" href="calculator.css">
 </head>
-<body>
+<body>	
 <table border=5>
 	<tr>
 		<th>My Calculator</th>
 	</tr>
+	<form>
 	<tr>
 		<td>Enter 1st Number : <input id="n1" type="number" placeholder="number 1"></td>
 	</tr>
@@ -17,15 +18,17 @@
 	</tr>
 	<tr>
 		<td>
+			<input type="reset" value="Clear values">		
+			Result : <input id="result" size="10" disabled>
+		</td>
+	</tr>
+	</form>
+	<tr>
+		<td>
 			<button id="add">Add</button>
 			<button id="sub">Subtract</button>
 			<button id="mul">Multiply</button>
 			<button id="div">Divide</button>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			Result : <input id="result" size="3"></input>
 		</td>
 	</tr>
 </table>
