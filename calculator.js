@@ -32,5 +32,5 @@ mul.addEventListener("click", function(){
 div.addEventListener("click", function(){
 	getValue();
 	total = num1 / num2;
-	Result.value = total;
+	Result.value = total.toFixed(3);
 });
